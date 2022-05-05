@@ -12,13 +12,13 @@
 
 <body>
     <header>
-        <nav>
+        <!-- <nav> -->
             <!-- <ul>
                 <li>Main</li>
                 <li>Info</li>
                 <li>What you can do</li>
             </ul> -->
-            <ul class="nav">
+            <!-- <ul class="nav">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Active</a>
                 </li>
@@ -32,7 +32,26 @@
                   <a class="nav-link disabled">Disabled</a>
                 </li>
               </ul>
-        </nav>
+        </nav> -->
+        <nav class="z-depth-0">
+          <div class="nav-wrapper">
+              <a href="#!" class="brand-logo grey-text text-lighten-2 col s12">The Brokers 📈</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                  <li><a href="#stock-search">Search Stocks</a></li>
+                  <li><a href="#user-search">Your Stocks</a></li>
+                  <li><a href="#stock-info">Stock Information</a></li>
+                  <li><a href="#stock-news">Stock News</a></li>
+              </ul>
+          </div>
+      </nav>
+      <ul class="sidenav sidenav-close" id="mobile-demo">
+          <li><a href="#stock-search">Search Stocks</a></li>
+          <li><a href="#user-search">Your Stocks</a></li>
+          <li><a href="#stock-info">Stock Information</a></li>
+          <li><a href="#stock-news">Stock News</a></li>
+      </ul>
+  </header>
 
     </header>
     <main>
